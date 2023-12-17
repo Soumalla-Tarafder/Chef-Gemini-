@@ -15,7 +15,7 @@ custom_css = """
 """
 
 def chefGemini():
-    os.environ['GOOGLE_API_KEY'] = "AIzaSyBjWUT9snDSAy0DwQNPpEkOCjkejwt0J4Q"
+    os.environ['GOOGLE_API_KEY'] = "enter your api key here"
     genai.configure(api_key = os.environ['GOOGLE_API_KEY'])
     # model = genai.GenerativeModel('gemini-pro')
     # response = model.generate_content("List 5 planets each with an interesting fact")
